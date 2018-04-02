@@ -10,6 +10,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   mail($to,$name,$message,$headers);
 
-    header('Location: http://kesara.ml/');
+    return "success";
 }
 ?>
