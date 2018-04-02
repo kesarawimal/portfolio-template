@@ -9,7 +9,7 @@
 <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 
 				
-	<title>Kesara Wimal</title>
+	<title>KESARA WIMAL</title>
 	
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 <link rel='dns-prefetch' href='http://s.w.org/' />
@@ -31,6 +31,9 @@ img.emoji {
 	vertical-align: -0.1em !important;
 	background: none !important;
 	padding: 0 !important;
+}
+body {
+	z-index: 9999999999999;
 }
 </style>
 <link rel='stylesheet' id='montserrat-css'  href='http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin' type='text/css' media='all' />
@@ -148,10 +151,10 @@ jQuery(document).ready(function($)
 	<script src="http://themes.pixelwars.org/empathy/demo/wp-content/themes/empathy/js/ie.js"></script>
 <![endif]-->
 
-		<link rel="icon" href="wp-content/uploads/2015/06/cropped-home-1-32x32.jpg" sizes="32x32" />
-<link rel="icon" href="wp-content/uploads/2015/06/cropped-home-1-192x192.jpg" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="wp-content/uploads/2015/06/cropped-home-1-180x180.jpg" />
-<meta name="msapplication-TileImage" content="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/06/cropped-home-1-270x270.jpg" />
+		<link rel="icon" href="wp-content/uploads/2015/06/heart.ico" sizes="32x32" />
+<!--<link rel="icon" href="wp-content/uploads/2015/06/cropped-home-1-192x192.jpg" sizes="192x192" />-->
+<!--<link rel="apple-touch-icon-precomposed" href="wp-content/uploads/2015/06/cropped-home-1-180x180.jpg" />-->
+<!--<meta name="msapplication-TileImage" content="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/06/cropped-home-1-270x270.jpg" />-->
 </head>
 
 <body class="home page-template page-template-template-homepage page-template-template-homepage-php page page-id-185">
@@ -184,8 +187,11 @@ jQuery(document).ready(function($)
 												var id        = $(this).attr('id');
 												var icon      = $(this).find('.page-title  i').attr('class');
 												var title     = $(this).find('.page-title').text();
-												var menu_item = '<li><a href="#/' + id + '"><i class="' + icon + '"></i>' + title + '</a></li>';
-												
+												if (id) {
+                                                    var menu_item = '<li><a href="#/' + id + '"><i class="' + icon + '"></i>' + title + '</a></li>';
+                                                } else {
+                                                    var menu_item = '<li><a href="http://blogmasters.ml/"><i class="' + icon + '"></i>' + title + '</a></li>';
+												}
 												menu_html += menu_item;
 												$('.menu-auto').html(menu_html);
 											});
@@ -194,18 +200,18 @@ jQuery(document).ready(function($)
 								</div>
 							</nav>
 										
-				<div class="header-search">
-					<form role="search" id="search-form" method="get" action="http://themes.pixelwars.org/empathy/demo/">
-						<input type="text" id="search" name="s" required="required" placeholder="enter word">
-						<input type="submit" id="search-submit" title="Search" value="&#8594;">
-					</form>
-				</div>
+				<!--<div class="header-search">-->
+					<!--<form role="search" id="search-form" method="get" action="http://themes.pixelwars.org/empathy/demo/">-->
+						<!--<input type="text" id="search" name="s" required="required" placeholder="enter word">-->
+						<!--<input type="submit" id="search-submit" title="Search" value="&#8594;">-->
+					<!--</form>-->
+				<!--</div>-->
 				
 											<div class="header-bottom">
-											<div class="textwidget"><ul class="social"><li><a target="_blank" class="facebook" href="#"></a></li>
-<li><a target="_blank" class="twitter" href="#"></a></li>
-<li><a target="_blank" class="linkedin" href="#"></a></li>
-<li><a target="_blank" class="instagram" href="#"></a></li></ul></div>
+											<div class="textwidget"><ul class="social"><li><a target="_blank" class="facebook" href="https://www.facebook.com/people/Kesara/100010352940848"></a></li>
+<li><a target="_blank" class="twitter" href="https://twitter.com/wimal_kesara"></a></li>
+<li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/kesarawimal/"></a></li>
+<li><a target="_blank" class="instagram" href="https://www.instagram.com/kylerwalden/"></a></li></ul></div>
 										
 																			<div class="copy-text">
 												<div id="text-2" class="widget_text">			<div class="textwidget"><p>© 2018 Kesara</p>
@@ -223,7 +229,7 @@ jQuery(document).ready(function($)
 																														home													</h1> <!-- .page-title -->
 																						<h4>Hi, I am</h4>
 <h2>Kesara Wimal</h2>
-<h4>I am <strong id="typist-element" data-typist="a PHP lover.,a wordpress lover.,an adventurer.">a open source developer.</strong></h4>
+<h4>I am <strong id="typist-element" data-typist="a PHP lover.,a young entrepreneur.,a programmer.">an open source developer.</strong></h4>
 									</div> <!-- .layout-medium -->
 								</div> <!-- .content -->
 							</section> <!-- .pt-page .page-layout .home-section -->
@@ -240,29 +246,29 @@ jQuery(document).ready(function($)
 <div class="col-sm-6 col-md-3">
 <div class="service">
 <p><img class="alignnone size-full wp-image-228" src="../wp-content/uploads/2014/04/icon-01.html" alt="icon-01" width="512" height="512" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-01.png 512w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-01-150x150.png 150w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-01-300x300.png 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-01-500x500.png 500w" sizes="(max-width: 512px) 100vw, 512px" /></p>
-<h4>COPYWRITER</h4>
-<p>I design super cool websites. It is a long established fact that a reader will be distracted by the readable content.
+<h4>ALGORITHM WRITING</h4>
+<p>I usually come up with a best solution when the situation needs best logic. I am thinking differently so that is why i can bring valuable solutions. I love algorithm because best logic makes me a super hero.
 </p></div>
 </div>
 <div class="col-sm-6 col-md-3">
 <div class="service">
 <p><img class="alignnone size-full wp-image-229" src="../wp-content/uploads/2014/04/icon-02.html" alt="icon-02" width="512" height="512" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-02.png 512w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-02-150x150.png 150w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-02-300x300.png 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-02-500x500.png 500w" sizes="(max-width: 512px) 100vw, 512px" /></p>
-<h4>GAME DEV</h4>
-<p>I can design beautiful type faces for both digital and print media. It is a long established fact that a reader will be distracted.
+<h4>CODING</h4>
+<p>My whole life i am being as a programmer. I love programming because that is the path to new invention. I like helping peoples by using my programming knowledge.
 </p></div>
 </div>
 <div class="col-sm-6 col-md-3">
 <div class="service">
 <p><img class="alignnone size-full wp-image-230" src="../wp-content/uploads/2014/04/icon-03.html" alt="icon-03" width="512" height="512" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-03.png 512w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-03-150x150.png 150w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-03-300x300.png 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-03-500x500.png 500w" sizes="(max-width: 512px) 100vw, 512px" /></p>
-<h4>MANAGEMENT</h4>
-<p>I write about web design. It is a long established fact that a reader will be distracted by the readable content.
+<h4>ANALYTICS</h4>
+<p>I am a good analyzer and also i am a good researcher. When i come up with new idea i usually doing researches using every reachable sources.
 </p></div>
 </div>
 <div class="col-sm-6 col-md-3">
 <div class="service">
 <p><img class="alignnone size-full wp-image-231" src="../wp-content/uploads/2014/04/icon-04.html" alt="icon-04" width="512" height="512" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-04.png 512w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-04-150x150.png 150w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-04-300x300.png 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2014/04/icon-04-500x500.png 500w" sizes="(max-width: 512px) 100vw, 512px" /></p>
-<h4>PROBLEM SOLVER</h4>
-<p>I have strong project management skills. It is a long established fact that a reader will be distracted by the readable content.
+<h4>PROBLEM SOLVING</h4>
+<p>If there a problem and that must be solve i am there to help you. Because i have we good background about problem solving. I always love to doing that.
 </p></div>
 </div>
 </div>
@@ -308,54 +314,19 @@ jQuery(document).ready(function($)
 </div>
 </div>
 <div class="section-title center">
-<h2><i>Clients</i></h2>
-</div>
-<div class="row">
-<div class=" col-xs-4 col-md-2">
-<div class="client">
-<a href="#"><img class="alignnone size-full wp-image-234" src="wp-content/uploads/2014/04/client-01.png" alt="client-01" width="200" height="142" /></a>
-</div>
-</div>
-<div class=" col-xs-4 col-md-2">
-<div class="client">
-<a href="#"><img class="alignnone size-full wp-image-235" src="wp-content/uploads/2014/04/client-02.png" alt="client-02" width="250" height="235" /></a>
-</div>
-</div>
-<div class=" col-xs-4 col-md-2">
-<div class="client">
-<a href="#"><img class="alignnone size-full wp-image-236" src="wp-content/uploads/2014/04/client-03.png" alt="client-03" width="250" height="172" /></a>
-</div>
-</div>
-<div class=" col-xs-4 col-md-2">
-<div class="client">
-<a href="#"><img class="alignnone size-full wp-image-237" src="wp-content/uploads/2014/04/client-04.png" alt="client-04" width="173" height="91" /></a>
-</div>
-</div>
-<div class=" col-xs-4 col-md-2">
-<div class="client">
-<a href="#"><img class="alignnone size-full wp-image-238" src="wp-content/uploads/2014/04/client-05.png" alt="client-05" width="250" height="161" /></a>
-</div>
-</div>
-<div class=" col-xs-4 col-md-2">
-<div class="client">
-<a href="#"><img class="alignnone size-full wp-image-239" src="wp-content/uploads/2014/04/client-06.png" alt="client-06" width="250" height="223" /></a>
-</div>
-</div>
-</div>
-<div class="section-title center">
 <h2><i>Fun Fact</i></h2>
 </div>
 <div class="row">
 <div class="col-sm-3 col-xs-6">
 <div class="fun-fact">
 <p><i class="pe-7s-map-2"></i></p>
-<h4>24 Countries Visited</h4>
+<h4>154 places Visited</h4>
 </div>
 </div>
 <div class="col-sm-3 col-xs-6">
 <div class="fun-fact">
 <p><i class="pe-7s-news-paper"></i></p>
-<h4>72 Articles Published</h4>
+<h4>100K stamps Collected</h4>
 </div>
 </div>
 <div class="col-sm-3 col-xs-6">
@@ -371,10 +342,6 @@ jQuery(document).ready(function($)
 </div>
 </div>
 </div>
-<div class="section-title center">
-<h2><i>Other Pages</i></h2>
-</div>
-<p class="center"><a class="button " href="http://themes.pixelwars.org/empathy/404/">404</a> <a class="button " href="http://themes.pixelwars.org/empathy/blog/">Blog</a> <a class="button " href="http://themes.pixelwars.org/empathy/form-elements/">Form Elements</a> <a class="button " href="http://themes.pixelwars.org/empathy/grid/">Grid</a> <a class="button " href="http://themes.pixelwars.org/empathy/shortcodes/">Shortcodes</a> <a class="button " href="http://themes.pixelwars.org/empathy/typography/">Typography</a></p>
 									</div>
 								</div>
 							</section>
@@ -391,44 +358,38 @@ jQuery(document).ready(function($)
 <p><i class="pe-7s-ribbon"></i>
 </div>
 <div class="event">
-<h3>Dec 2013 &#8211; Current</h3>
-<h4>Front End Web Developer</h4>
-<h5>Pixelwars Inc.</h5>
-<p>I currently work for Pixelwars creative studio. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.
+<h3>Jan 2018 &#8211; Current</h3>
+<h4>Software Engineer</h4>
+<h5>Efito Solutions</h5>
+<p>I am currently working for efito solutions as a software engineer. I have to work for huge projects. Those are cloud base, platform independent and also desktop applications. I love to work and I love coding.
 </p></div>
 <div class="event">
-<h3>Jun 2012 &#8211; Dec 2013</h3>
-<h4>Web Developer</h4>
-<h5>Google Inc.</h5>
-<p>I worked as a Web Developer at Google for 3 years. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.
-</p></div>
-<div class="event">
-<h3>2006</h3>
-<h4>Exclusive Author</h4>
-<h5>Envato Inc.</h5>
-<p>I am an Elite Author at Envato. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.
+<h3>Dec 2016 &#8211; Current</h3>
+<h4>Freelance Developer</h4>
+<h5>Freelancer Inc.</h5>
+<p>I am working as a freelance web developer on different platforms. And I am also an open source developer all the time.
 </p></div>
 <div class="event">
 <h2>EDUCATION</h2>
 <p><i class="pe-7s-study"></i>
 </div>
 <div class="event">
-<h3>2002</h3>
-<h4>Atom Science</h4>
-<h5>Stanford University</h5>
-<p>I studied atomic stuff at Stanford University. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.
-</p></div>
-<div class="event">
-<h3>2010</h3>
-<h4>Software Engineering</h4>
-<h5>Harvard University</h5>
-<p>I got my Master Degree at Harvard University. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.
-</p></div>
-<div class="event">
-<h3>2006</h3>
+<h3>2018</h3>
 <h4>Computer Science</h4>
-<h5>MIT</h5>
-<p>I studied Computer Science at MIT. I create usable web interfaces, front end coding stuff and almost anything. But i love what i do.
+<h5>Scottish Qualifications Authority</h5>
+<p>I am studying my computer science HND under scottish qualifications authority. I achieved my all modules successfully. I love my university life.
+</p></div>
+<div class="event">
+<h3>2016</h3>
+<h4>Information Technology</h4>
+<h5>Pearson(Edexcel)</h5>
+<p>I completed my diploma at esoft metro campus. I am able to got distinction passes for all my subjects.I love IT.
+</p></div>
+<div class="event">
+<h3>2015</h3>
+<h4>Bio Science</h4>
+<h5>Royal College</h5>
+<p>I studied bio science at royal college. I completed my A/Ls by following biology, chemistry and physics as my core subjects.
 </p></div>
 <p><a class="button " href="#"><i class="pe-7s-download"></i>Download CV</a>
 </div>
@@ -437,14 +398,47 @@ jQuery(document).ready(function($)
 <h2><i>Coding Skills</i></h2>
 </div>
 <div class="skill-unit">
+<h4>PHP</h4>
+<div class="bar" data-percent="100">
+<div class="progress"></div>
+</div>
+</div>
+<div class="skill-unit">
+<h4>JavaScript</h4>
+<div class="bar" data-percent="90">
+<div class="progress"></div>
+</div>
+</div>
+<div class="skill-unit">
+<h4>Java</h4>
+<div class="bar" data-percent="70">
+<div class="progress"></div>
+</div>
+</div>
+<div class="skill-unit">
+<h4>Python</h4>
+<div class="bar" data-percent="50">
+<div class="progress"></div>
+</div>
+</div>
+    <div class="skill-unit">
+<h4>C#</h4>
+<div class="bar" data-percent="50">
+<div class="progress"></div>
+</div>
+</div>
+<div class="section-title center">
+<h2><i>Design Skills</i></h2>
+</div>
+<div class="skill-unit">
 <h4>HTML5</h4>
-<div class="bar" data-percent="80">
+<div class="bar" data-percent="90">
 <div class="progress"></div>
 </div>
 </div>
 <div class="skill-unit">
 <h4>CSS3</h4>
-<div class="bar" data-percent="100">
+<div class="bar" data-percent="80">
 <div class="progress"></div>
 </div>
 </div>
@@ -454,54 +448,33 @@ jQuery(document).ready(function($)
 <div class="progress"></div>
 </div>
 </div>
-<div class="skill-unit">
-<h4>WordPress</h4>
-<div class="bar" data-percent="60">
-<div class="progress"></div>
-</div>
-</div>
-<div class="section-title center">
-<h2><i>Design Skills</i></h2>
-</div>
-<div class="skill-unit">
-<h4>Fireworks</h4>
+    <div class="skill-unit">
+<h4>Bootstrap</h4>
 <div class="bar" data-percent="90">
-<div class="progress"></div>
-</div>
-</div>
-<div class="skill-unit">
-<h4>Photoshop</h4>
-<div class="bar" data-percent="70">
-<div class="progress"></div>
-</div>
-</div>
-<div class="skill-unit">
-<h4>Illustrator</h4>
-<div class="bar" data-percent="50">
 <div class="progress"></div>
 </div>
 </div>
 <div class="section-title center">
 <h2><i>TESTIMONIALS</i></h2>
 </div>
-<div class="testo">
-<p><img class="alignnone size-full wp-image-263" src="wp-content/uploads/2014/04/testo-01.jpg" alt="testo-01" width="128" height="128" /></p>
-<h4>Vincent Wood</h4>
-<h5>CEO / Gravity Inc.</h5>
-<p>He is a great and hardworking guy. I am so proud of i have him as my asistant. He helped me so much. Also i am so proud of i have him as my asistant. He helped me so much.
-</p></div>
-<div class="testo">
-<p><img class="alignnone size-full wp-image-264" src="wp-content/uploads/2014/04/testo-02.jpg" alt="testo-02" width="128" height="128" /></p>
-<h4>Gary Morgan</h4>
-<h5>Chemist / Freelancer</h5>
-<p>He was a great co-worker and a friend. I wouldn&#8217;t be where I am without his support.
-</p></div>
-<div class="testo">
-<p><img class="alignnone size-full wp-image-265" src="wp-content/uploads/2014/04/testo-03.jpg" alt="testo-03" width="128" height="128" /></p>
-<h4>Jason Wilson</h4>
-<h5>Lab Geek / Miami Metro</h5>
-<p>He is ok. I don&#8217;t really know him. He looks nice.
-</p></div>
+<!--<div class="testo">-->
+<!--<p><img class="alignnone size-full wp-image-263" src="wp-content/uploads/2014/04/testo-01.jpg" alt="testo-01" width="128" height="128" /></p>-->
+<!--<h4>Vincent Wood</h4>-->
+<!--<h5>CEO / Gravity Inc.</h5>-->
+<!--<p>He is a great and hardworking guy. I am so proud of i have him as my asistant. He helped me so much. Also i am so proud of i have him as my asistant. He helped me so much.-->
+<!--</p></div>-->
+<!--<div class="testo">-->
+<!--<p><img class="alignnone size-full wp-image-264" src="wp-content/uploads/2014/04/testo-02.jpg" alt="testo-02" width="128" height="128" /></p>-->
+<!--<h4>Gary Morgan</h4>-->
+<!--<h5>Chemist / Freelancer</h5>-->
+<!--<p>He was a great co-worker and a friend. I wouldn&#8217;t be where I am without his support.-->
+<!--</p></div>-->
+<!--<div class="testo">-->
+<!--<p><img class="alignnone size-full wp-image-265" src="wp-content/uploads/2014/04/testo-03.jpg" alt="testo-03" width="128" height="128" /></p>-->
+<!--<h4>Jason Wilson</h4>-->
+<!--<h5>Lab Geek / Miami Metro</h5>-->
+<!--<p>He is ok. I don&#8217;t really know him. He looks nice.-->
+<!--</p></div>-->
 </div>
 </div>
 									</div>
@@ -520,337 +493,125 @@ jQuery(document).ready(function($)
 																											<li class="current"><a href="#" data-filter="*">All</a></li>
 																													<li><a href="#" data-filter=".coding">Coding</a></li>
 																													<li><a href="#" data-filter=".design">Design</a></li>
-																													<li><a href="#" data-filter=".logo">Logo</a></li>
+																													<li><a href="#" data-filter=".logo">Wordpress</a></li>
 																									</ul>
 											
 											<div class="portfolio-items media-grid masonry" data-layout="masonry" data-item-width="340">
-																												<div id="post-310" class="media-cell hentry design  post-310 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-design">
+																												<div id="post-310" class="media-cell hentry coding  post-310 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-logo">
 																																					<div class="media-box">
-																					<img width="500" height="375" src="wp-content/uploads/2015/07/01-500x375.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/01-500x375.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/01-300x225.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/01.jpg 600w" sizes="(max-width: 500px) 100vw, 500px" />																					
+																					<img width="500" height="375" src="wp-content/uploads/Screenshot (197).png" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt=""/>
 																					<div class="mask"></div>
 																					
-																																														<a class="ajax" href="portfolio/bookcard/index.html"></a>
+																																														<a class="" href="http://blogmasters.ml/"></a>
 																																												</div>
 																																				
 																	<div class="media-cell-desc">
-																		<h3>BookCard</h3>
-																		
+																		<h3>Blog Masters</h3>
+
 																																							<p class="category">
-																						a vcard theme																					</p>
+																						a blogging platform																					</p>
 																																					</div>
 																</div>
 																															<div id="post-413" class="media-cell hentry coding  post-413 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-coding">
 																																					<div class="media-box">
-																					<img width="500" height="375" src="wp-content/uploads/2015/07/091-500x375.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/091.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/091-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />																					
+																					<img width="500" height="375" src="wp-content/uploads/Screenshot (198).png" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt=""/>
 																					<div class="mask"></div>
 																					
-																																														<a class="ajax" href="portfolio/photographer/index.html"></a>
+																																														<a class="" href="http://mytask.ml/"></a>
 																																												</div>
 																																				
 																	<div class="media-cell-desc">
-																		<h3>Photographer</h3>
+																		<h3>My Task</h3>
 																		
 																																							<p class="category">
-																						a photography theme																					</p>
+																						a project management platform																					</p>
 																																					</div>
 																</div>
-																															<div id="post-417" class="media-cell hentry logo  post-417 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-logo">
+																															<div class="media-cell hentry coding  post-417 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-logo">
 																																					<div class="media-box">
-																					<img width="500" height="375" src="wp-content/uploads/2015/07/051-500x375.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/051.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/051-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />																					
+																					<img width="500" height="375" src="wp-content/uploads/Screenshot (199).png" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt=""/>
 																					<div class="mask"></div>
 																					
-																																														<a class="ajax" href="portfolio/read/index.html"></a>
+																																														<a class="ajax" href="http://congomovies.ml/"></a>
 																																												</div>
 																																				
 																	<div class="media-cell-desc">
-																		<h3>Read</h3>
+																		<h3>Congo Movies</h3>
 																		
 																																							<p class="category">
-																						a blogger theme																					</p>
+																						a movie ticket booking platform																					</p>
 																																					</div>
 																</div>
-																															<div id="post-422" class="media-cell hentry coding audio post-422 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-coding">
+																															<div id="post-422" class="media-cell hentry logo audio post-422 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-coding">
 																																					<div class="media-box">
-																					<img width="500" height="375" src="wp-content/uploads/2015/07/022-500x375.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/022.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/022-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />																					
+																					<img width="500" height="375" src="wp-content/uploads/Screenshot (200).png" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt=""/>
 																					<div class="mask"></div>
 																					
-																																													<a class="lightbox mfp-iframe" href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" title="High Trend"></a>
+																																													<a class="lightbox mfp-iframe" href="http://blog.congomovies.ml/"></a>
 																																											</div>
 																																				
 																	<div class="media-cell-desc">
-																		<h3>High Trend</h3>
+																		<h3>Congo Movie Blog</h3>
 																		
 																																							<p class="category">
-																						lightbox audio
+																						a wordpress blog
 																					</p>
-																																					</div>
-																</div>
-																															<div id="post-420" class="media-cell hentry logo video post-420 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-logo">
-																																					<div class="media-box">
-																					<img width="500" height="375" src="wp-content/uploads/2015/07/032-500x375.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/032.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/032-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />																					
-																					<div class="mask"></div>
-																					
-																																													<a class="lightbox mfp-iframe" href="http://player.vimeo.com/video/97102654?color=E65757&amp;title=0&amp;byline=0&amp;portrait=0" title="Crunch Light"></a>
-																																											</div>
-																																				
-																	<div class="media-cell-desc">
-																		<h3>Crunch Light</h3>
-																		
-																																							<p class="category">
-																						lightbox video																					</p>
 																																					</div>
 																</div>
 																															<div id="post-427" class="media-cell hentry logo image post-427 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-logo">
 																																					<div class="media-box">
-																					<img width="500" height="375" src="wp-content/uploads/2015/07/08-500x375.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/08.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/08-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />																					
+																					<img width="500" height="375" src="wp-content/uploads/Screenshot (201).png" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt=""/>
 																					<div class="mask"></div>
-																					
-																					<a class="lightbox" title="the artist" href="wp-content/uploads/2015/07/lightbox-011.jpg"></a><a class="lightbox" title="blurry blush" href="wp-content/uploads/2015/07/lightbox-02.jpg"></a><a class="lightbox" title="getting dirty" href="wp-content/uploads/2015/07/lightbox-03.jpg"></a>
+																					<a class="lightbox" title="blurry blush" href="http://riskcalculator.000webhostapp.com/"></a>
 																				</div>
 																																				
 																	<div class="media-cell-desc">
-																		<h3>Sun Bath</h3>
+																		<h3>Heart Risk Calculator</h3>
 																		
 																																							<p class="category">
-																						Lightbox Gallery																					</p>
+																						wordpress theme																					</p>
 																																					</div>
 																</div>
 																															<div id="post-424" class="media-cell hentry design image post-424 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-design">
 																																					<div class="media-box">
-																					<img width="500" height="375" src="wp-content/uploads/2015/07/071-500x375.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/071.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/071-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />																					
+																					<img width="500" height="375" src="wp-content/uploads/Screenshot (202).png" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt=""/>
 																					<div class="mask"></div>
 																					
-																					<a class="lightbox" title="the artist" href="wp-content/uploads/2015/07/lightbox-01.jpg"></a>
+																					<a class="lightbox" title="the artist" href="http://heartriskcalculater.000webhostapp.com/"></a>
 																				</div>
 																																				
 																	<div class="media-cell-desc">
-																		<h3>Curious Neighbour</h3>
+																		<h3>Risk Calculator</h3>
 																		
 																																							<p class="category">
-																						lightbox image																					</p>
+																						calculate heart risk																					</p>
 																																					</div>
 																</div>
-																															<div id="post-432" class="media-cell hentry coding url post-432 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-coding">
+																															<div id="post-432" class="media-cell hentry design url post-432 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-coding">
 																																					<div class="media-box">
-																					<img width="500" height="375" src="wp-content/uploads/2015/07/042-500x375.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/042.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/042-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />																					
+																					<img width="500" height="375" src="wp-content/uploads/Screenshot (203).png" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt=""/>
 																					<div class="mask"></div>
 																					
-																																													<a target="_blank" href="http://themeforest.net/user/pixelwars"></a>
+																																													<a target="_blank" href="http://ostyres.ml/"></a>
 																																											</div>
 																																				
 																	<div class="media-cell-desc">
-																		<h3>Pixelwars</h3>
+																		<h3>OS Tires</h3>
 																		
 																																							<p class="category">
-																						Custom Url																					</p>
+																						a parallax scrolling theme																					</p>
 																																					</div>
 																</div>
-																															<div id="post-434" class="media-cell hentry design  post-434 portfolio type-portfolio status-publish has-post-thumbnail portfolio-category-design">
-																																					<div class="media-box">
-																					<img width="500" height="375" src="wp-content/uploads/2015/07/061-500x375.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/061.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/061-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" />																					
-																					<div class="mask"></div>
-																					
-																																														<a class="ajax" href="portfolio/unique-design/index.html"></a>
-																																												</div>
-																																				
-																	<div class="media-cell-desc">
-																		<h3>Unique Design</h3>
-																		
-																																							<p class="category">
-																						a creative theme																					</p>
-																																					</div>
-																</div>
-																										</div>
 																	</div>
 						</div>
 					</section>
-									<section id="blog" class="pt-page page-layout">
+					<section class="pt-page page-layout">
 						<div class="content">
 							<div class="layout-medium">
-																			<h1 class="page-title">
-																											<i class="pe-7s-notebook"></i>
-																										
-												blog											</h1>
-																							
-								
-								<div class="latest-posts media-grid masonry" data-layout="masonry" data-item-width="340">
-																						<article id="post-378" class="media-cell post-378 post type-post status-publish format-standard has-post-thumbnail hentry category-travel tag-love">
-																															<div class="media-box">
-																		<img width="500" height="331" src="wp-content/uploads/2015/07/011-500x331.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/011-500x331.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/011-300x199.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/011.jpg 768w" sizes="(max-width: 500px) 100vw, 500px" />																		
-																		<div class="mask"></div>
-																		
-																		<a href="love-is-a-strong-word/index.html"></a>
-																	</div>
-																														
-														<header class="media-cell-desc">
-															<span class="date" title="2015">
-																<span class="day">24</span>
-																
-																Jul															</span>
-															
-															<h3>
-																<a href="love-is-a-strong-word/index.html">Love is a Strong Word</a>
-															</h3>
-														</header>
-													</article>
-																									<article id="post-385" class="media-cell post-385 post type-post status-publish format-standard has-post-thumbnail hentry category-think tag-hope">
-																															<div class="media-box">
-																		<img width="500" height="334" src="wp-content/uploads/2015/07/01-2-500x334.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/01-2-500x333.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/01-2-300x200.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/01-2.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" />																		
-																		<div class="mask"></div>
-																		
-																		<a href="there-is-always-light-at-the-end-of-the-tunnel/index.html"></a>
-																	</div>
-																														
-														<header class="media-cell-desc">
-															<span class="date" title="2015">
-																<span class="day">24</span>
-																
-																Jul															</span>
-															
-															<h3>
-																<a href="there-is-always-light-at-the-end-of-the-tunnel/index.html">There is Always Light at The End of The Tunnel</a>
-															</h3>
-														</header>
-													</article>
-																									<article id="post-382" class="media-cell post-382 post type-post status-publish format-standard has-post-thumbnail hentry category-sport tag-bike tag-ready">
-																															<div class="media-box">
-																		<img width="500" height="334" src="wp-content/uploads/2015/07/031-500x334.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/031-500x333.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/031-300x200.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/031.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" />																		
-																		<div class="mask"></div>
-																		
-																		<a href="get-your-bike-ready-for-the-summer/index.html"></a>
-																	</div>
-																														
-														<header class="media-cell-desc">
-															<span class="date" title="2015">
-																<span class="day">24</span>
-																
-																Jul															</span>
-															
-															<h3>
-																<a href="get-your-bike-ready-for-the-summer/index.html">Get Your Bike Ready For The Summer</a>
-															</h3>
-														</header>
-													</article>
-																									<article id="post-375" class="media-cell post-375 post type-post status-publish format-standard has-post-thumbnail hentry category-think">
-																															<div class="media-box">
-																		<img width="500" height="500" src="wp-content/uploads/2015/07/07-500x500.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/07-500x500.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/07-150x150.jpg 150w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/07-300x300.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/07.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" />																		
-																		<div class="mask"></div>
-																		
-																		<a href="free-your-mind-for-a-better-life/index.html"></a>
-																	</div>
-																														
-														<header class="media-cell-desc">
-															<span class="date" title="2015">
-																<span class="day">24</span>
-																
-																Jul															</span>
-															
-															<h3>
-																<a href="free-your-mind-for-a-better-life/index.html">Free Your Mind For A Better Life</a>
-															</h3>
-														</header>
-													</article>
-																									<article id="post-370" class="media-cell post-370 post type-post status-publish format-standard has-post-thumbnail hentry category-adventure tag-coffee tag-morning">
-																															<div class="media-box">
-																		<img width="500" height="334" src="wp-content/uploads/2015/07/10-500x334.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/10-500x333.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/10-300x200.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/10.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" />																		
-																		<div class="mask"></div>
-																		
-																		<a href="nothing-like-morning-coffee/index.html"></a>
-																	</div>
-																														
-														<header class="media-cell-desc">
-															<span class="date" title="2015">
-																<span class="day">24</span>
-																
-																Jul															</span>
-															
-															<h3>
-																<a href="nothing-like-morning-coffee/index.html">Nothing Like a Morning Coffee</a>
-															</h3>
-														</header>
-													</article>
-																									<article id="post-367" class="media-cell post-367 post type-post status-publish format-standard has-post-thumbnail hentry category-travel tag-open-mind tag-think">
-																															<div class="media-box">
-																		<img width="500" height="334" src="wp-content/uploads/2015/07/05-500x334.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/05-500x333.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/05-300x200.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/05.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" />																		
-																		<div class="mask"></div>
-																		
-																		<a href="becoming-a-dragonfly/index.html"></a>
-																	</div>
-																														
-														<header class="media-cell-desc">
-															<span class="date" title="2015">
-																<span class="day">24</span>
-																
-																Jul															</span>
-															
-															<h3>
-																<a href="becoming-a-dragonfly/index.html">Becoming A Dragonfly</a>
-															</h3>
-														</header>
-													</article>
-																									<article id="post-364" class="media-cell post-364 post type-post status-publish format-standard has-post-thumbnail hentry category-adventure category-travel tag-sea tag-sport tag-surfing">
-																															<div class="media-box">
-																		<img width="500" height="334" src="wp-content/uploads/2015/07/041-500x334.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/041-500x333.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/041-300x200.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/041.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" />																		
-																		<div class="mask"></div>
-																		
-																		<a href="surfing-is-a-lifestyle/index.html"></a>
-																	</div>
-																														
-														<header class="media-cell-desc">
-															<span class="date" title="2015">
-																<span class="day">24</span>
-																
-																Jul															</span>
-															
-															<h3>
-																<a href="surfing-is-a-lifestyle/index.html">Surfing is a Lifestyle</a>
-															</h3>
-														</header>
-													</article>
-																									<article id="post-346" class="media-cell post-346 post type-post status-publish format-standard has-post-thumbnail hentry category-travel tag-bike tag-travel tag-trip">
-																															<div class="media-box">
-																		<img width="500" height="500" src="wp-content/uploads/2015/07/06-500x500.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/06-500x500.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/06-150x150.jpg 150w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/06-300x300.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/06.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" />																		
-																		<div class="mask"></div>
-																		
-																		<a href="runaway-a-road-adventure/index.html"></a>
-																	</div>
-																														
-														<header class="media-cell-desc">
-															<span class="date" title="2015">
-																<span class="day">24</span>
-																
-																Jul															</span>
-															
-															<h3>
-																<a href="runaway-a-road-adventure/index.html">Runaway A Road Adventure</a>
-															</h3>
-														</header>
-													</article>
-																									<article id="post-361" class="media-cell post-361 post type-post status-publish format-standard has-post-thumbnail hentry category-travel">
-																															<div class="media-box">
-																		<img width="500" height="334" src="wp-content/uploads/2015/07/02-500x334.jpg" class="attachment-pixelwars__image_size_2 size-pixelwars__image_size_2 wp-post-image" alt="" srcset="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/02-500x333.jpg 500w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/02-300x200.jpg 300w, http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/02.jpg 1000w" sizes="(max-width: 500px) 100vw, 500px" />																		
-																		<div class="mask"></div>
-																		
-																		<a href="travelling-feels-like-you-are-alive/index.html"></a>
-																	</div>
-																														
-														<header class="media-cell-desc">
-															<span class="date" title="2015">
-																<span class="day">24</span>
-																
-																Jul															</span>
-															
-															<h3>
-																<a href="travelling-feels-like-you-are-alive/index.html">Travelling Feels Like You Are Alive</a>
-															</h3>
-														</header>
-													</article>
-																				</div>
-								
-								
-								<p class="launch">
-																					<a class="button" href="blog/index.html">SEE ALL POSTS</a>
-																			</p>
+								<h1 class="page-title">
+									<i class="pe-7s-notebook"></i>
+												blog
+								</h1>
 							</div>
 						</div>
 					</section>
@@ -864,14 +625,14 @@ jQuery(document).ready(function($)
 <h2><i>Let&#8217;s Socialize</i></h2>
 </div>
 <ul class="social">
-<li><a target="_blank" class="facebook" href="#"></a></li>
-<li><a target="_blank" class="twitter" href="#"></a></li>
-<li><a target="_blank" class="linkedin" href="#"></a></li>
-<li><a target="_blank" class="google-plus" href="#"></a></li>
-<li><a target="_blank" class="pinterest" href="#"></a></li>
-<li><a target="_blank" class="instagram" href="#"></a></li>
-<li><a target="_blank" class="stack-overflow" href="#"></a></li>
-<li><a target="_blank" class="github" href="#"></a></li>
+<li><a target="_blank" class="facebook" href="https://www.facebook.com/people/Kesara/100010352940848"></a></li>
+<li><a target="_blank" class="twitter" href="https://twitter.com/wimal_kesara"></a></li>
+<li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/kesarawimal/"></a></li>
+<li><a target="_blank" class="google-plus" href="https://plus.google.com/u/0/100489888557888336926"></a></li>
+<li><a target="_blank" class="pinterest" href="https://www.pinterest.com/kesarawimal/"></a></li>
+<li><a target="_blank" class="instagram" href="https://www.instagram.com/kylerwalden/"></a></li>
+<li><a target="_blank" class="stack-overflow" href="https://stackoverflow.com/users/9535043/kesara-wimal"></a></li>
+<li><a target="_blank" class="github" href="https://github.com/kesarawimal"></a></li>
 </ul>
 <div class="section-title center">
 <h2><i>Reach Me</i></h2>
@@ -906,19 +667,17 @@ jQuery(document).ready(function($)
 <h2><i>Drop Me A Line</i></h2>
 </div>
 <div class="contact-form">
-<form id="contact-form" method="post" action="http://themes.pixelwars.org/empathy/demo/wp-content/themes/empathy/send-mail.php">
+<form id="contact-form" method="post" action="mail.php">
 <p><label for="name">NAME</label><input type="text" id="name" name="name" class="required"></p>
 <p><label for="email">EMAIL</label><input type="text" id="email" name="email" class="required email"></p>
 <p class="antispam"><label for="url">Leave this empty</label><input type="text" id="url" name="url"></p>
 <p><label for="message">MESSAGE</label><textarea id="message" name="message" class="required"></textarea></p>
-<p style="padding: 0px; margin: 0px;"><input type="hidden" id="sender_domain" name="sender_domain" value="server@themes.pixelwars.org"></p>
-<p style="padding: 0px; margin: 0px;"><input type="hidden" id="subject" name="subject" value="Contact form message from Empathy"></p>
 <p><input type="submit" class="submit button primary" value="SEND"></p>
 </form>
 </div>
 <div class="map">
-<p style="padding: 0px; margin: 0px;"><script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script></p>
-<div id="map-canvas" class="map-canvas" data-latitude="-25.363882" data-longitude="131.044922" data-zoom="5" data-marker-image="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/marker.png"></div>
+<p style="padding: 0px; margin: 0px;"><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCT1rTCa_2vybezAfJaOZe7X36uYFuMe4&callback=initMap"></script></p>
+<div id="map-canvas" class="map-canvas" data-latitude="6.925079" data-longitude="79.862244" data-zoom="8" data-marker-image="http://themes.pixelwars.org/empathy/demo/wp-content/uploads/2015/07/marker.png"></div>
 </div>
 									</div>
 								</div>
