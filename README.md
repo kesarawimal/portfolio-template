@@ -1,2 +1,2 @@
-# blog
-My personal blog
+# portfolio-template
+HTML5 personal portfolio template
